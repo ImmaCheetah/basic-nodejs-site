@@ -1,3 +1,6 @@
+// require("dotenv").config();
+import dotenv from 'dotenv';
+dotenv.config()
 import { createServer } from 'node:http';
 // import * as fs from 'fs';
 import fs from 'node:fs/promises';
