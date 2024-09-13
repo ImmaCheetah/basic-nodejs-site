@@ -1,5 +1,5 @@
 // require("dotenv").config();
-import dotenv from 'dotenv';
+import 'dotenv/config'
 dotenv.config()
 import { createServer } from 'node:http';
 // import * as fs from 'fs';
